@@ -26,7 +26,8 @@ class App extends Component{
             <div className="content">
               <div id="large-header" className="large-header">
                 <canvas id="demo-canvas" style={canvasStyle}></canvas>
-                  <h1 className="main-title"><span className="thin">Brendan Guralsky</span>Portfolio</h1>
+                  <h1 className="main-title"><span className="thin">Brendan Guralsky's  </span>Portfolio</h1>
+                  <a className="handle" href="https://github.com/chefbg555"><span className="thin">@</span>chefbg555</a>
                     <div className="carousels-container">
                         <div className="carousels">
                           <Videojuego/>

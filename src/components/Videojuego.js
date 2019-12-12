@@ -10,6 +10,7 @@ class Videojuego extends Component {
   render() {
     return (
       <div className="game-container">
+        <a href="http://videojuego.herokuapp.com">
         <div>
           <h2>VideoJuego</h2>
         </div>
@@ -35,6 +36,7 @@ class Videojuego extends Component {
               <p className="legend">Print label from Easypost API</p>
             </div>
           </Carousel>
+        </a>
       </div>
     )
   }

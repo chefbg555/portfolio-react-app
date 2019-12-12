@@ -1,14 +1,16 @@
-
+body{
+  margin:0;
+  height:100vh;
+  width:100vw;
+}
 
 .carousels-container{
- display:grid;
- margin-bottom: auto;
+ display:flex;
+ flex-direction: row;
+ align-content: center;
+ justify-content: space-around;
+ margin-top:50vh;
 }
-.carousels{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-}
-
 
  .shipship-carousel{
   height:20vh;
@@ -18,7 +20,9 @@
   height:20vh;
   width:20vw;
 } 
-
+h2{
+  color:white;
+}
 .large-header {
    position: relative;
    width: 100vw;
@@ -26,9 +30,21 @@
    background: #111;
    overflow: hidden;
    background-size: cover;
-  
-}
 
+}
+.handle{
+  position: absolute;
+  font-size:2rem;
+  margin: 0;
+  padding: 0;
+  color: #F9F1E9;
+  text-align: center;
+  top: 5%;
+  left: 90%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  letter-spacing: 0.05em;
+}
 .demo .large-header {
    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
 }
@@ -53,6 +69,9 @@
 
 .main-title .thin {
    font-weight: 200;
+}
+.handle .thin{
+  font-weight: 100;
 }
 
 @media only screen and (max-width: 768px) {
