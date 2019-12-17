@@ -9,7 +9,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 class Shipship extends Component {
   render() {
     return (
-      <div>
+      <div className="ship-container">
+        <a href="http://wyn-shipship.herokuapp.com">
         <div>
           <h2>ShipShip</h2>
         </div>  
@@ -31,6 +32,7 @@ class Shipship extends Component {
               <p className="legend">Print label from Easypost API</p>
             </div>
           </Carousel>
+        </a>
       </div>
     )
   }
