@@ -20,7 +20,7 @@ class AboutMe extends Component {
         <div className="typist-container">
         <Typist cursor={{hideWhenDone: true}}>
              Hi I'm Brendan Guralsky, I really enjoy working with React and Node.js!!! I'm open to
-          working with any framework. I love to learn new things, and am READY for any opportunity presented
+          working with any framework. I understand the fundamentals of working with a database  I love to learn new things, and am READY for any opportunity presented
           to me!!!
           </Typist>
         </div>

@@ -1,3 +1,8 @@
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {}
+
 body{
   margin:0;
   height:100vh;
@@ -260,8 +265,6 @@ h2{
 .contact-color{
   background-color:cornflowerblue;
 }
-
-
-canvas{
+ canvas{
   height:100vh;
-}
+} 
