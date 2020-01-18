@@ -11,9 +11,10 @@ class Shipship extends Component {
     return (
       <div className="ship-container">
         <a href="http://wyn-shipship.herokuapp.com">
-        <div>
-          <h2>ShipShip</h2>
-        </div>  
+          <div>
+            <h2>ShipShip</h2>
+          </div>  
+        </a>
           <Carousel autoPlay transitionTime={600} className="shipship-carousel">
             <div>
               <img src={shipship1} alt="shipship" />
@@ -32,7 +33,6 @@ class Shipship extends Component {
               <p className="legend">Print label from Easypost API</p>
             </div>
           </Carousel>
-        </a>
       </div>
     )
   }

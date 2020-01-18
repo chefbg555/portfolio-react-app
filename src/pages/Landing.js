@@ -10,7 +10,7 @@ const Landing = props =>{
   const redirectToContact = () => props.history.push('/contact')
   setTimeout(function(){
     window.location.reload(1);
-  }, 13000)
+  }, 15000)
 
   return(
   <>  

@@ -11,9 +11,10 @@ class Videojuego extends Component {
     return (
       <div className="game-container">
         <a href="http://videojuego.herokuapp.com">       
-        <div>
-          <h2>VideoJuego</h2>
-        </div>
+          <div>
+            <h2>VideoJuego</h2>
+          </div>
+        </a>
           <Carousel autoPlay transitionTime={600} className="game-carousel">
             <div>
               <img src={game1} alt="VideoJuego" />
@@ -32,7 +33,6 @@ class Videojuego extends Component {
               <p className="legend">Game description</p>
             </div>
           </Carousel>
-        </a>
       </div>
     )
   }

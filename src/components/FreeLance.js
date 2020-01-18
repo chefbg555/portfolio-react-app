@@ -12,9 +12,10 @@ class FreeLance extends Component {
     return (
       <div className="linkvsrargh-container">
         <a href="http://linkvsrargh.com">
-        <div>
-          <h2>LINKVSRARGH</h2>
-        </div>  
+          <div>
+            <h2>LINKVSRARGH</h2>
+          </div>  
+        </a>
           <Carousel autoPlay transitionTime={600} className="linkvsrargh-carousel">
             <div>
               <img src={link4} alt="linkvsrargh" />
@@ -33,7 +34,6 @@ class FreeLance extends Component {
               <p className="legend">Working on channel information</p>
             </div>
           </Carousel>
-        </a>
       </div>
     )
   }

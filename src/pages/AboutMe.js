@@ -12,15 +12,15 @@ class AboutMe extends Component {
   render() {
     setTimeout(function(){
       window.location.reload(1);
-    }, 280000)
+    }, 400000)
     return (
       <div className="brendan">
         <Canvas/>
         <a className="instagram" href="https://www.instagram.com/brendanguralsky5/"><img src={instagram} alt="instagram"></img></a>
         <div className="typist-container">
         <Typist cursor={{hideWhenDone: true}}>
-             Hi I'm Brendan Guralsky, I really enjoy working with React and Node.js!!! I'm open to
-          working with any framework. I understand the fundamentals of working with a database  I love to learn new things, and am READY for any opportunity presented
+             Hi I'm Brendan Guralsky, I really enjoy working with React and Node.js!!!
+           I also understand the fundamentals of working with a database. I love to learn new things, and am READY for ANY opportunity presented
           to me!!!
           </Typist>
         </div>

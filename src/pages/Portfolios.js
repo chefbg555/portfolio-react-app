@@ -12,7 +12,7 @@ class Portfolios extends Component {
   render() {
     setTimeout(function(){
       window.location.reload(1);
-    }, 22000)
+    }, 30000)
     
     return (
       <>
