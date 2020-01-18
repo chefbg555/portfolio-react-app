@@ -12,7 +12,7 @@ class AboutMe extends Component {
   render() {
     setTimeout(function(){
       window.location.reload(1);
-    }, 230000)
+    }, 280000)
     return (
       <div className="brendan">
         <Canvas/>

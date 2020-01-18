@@ -44,6 +44,11 @@ h2{
   top:20vh;
   left:40vw;
 }
+.linkvsrargh-container{
+  position: absolute;
+  top:60vh;
+  left:10vw;
+}
 
 .shipship-carousel{
   height:20vh;
@@ -55,6 +60,10 @@ h2{
   height:20vh;
   width:20vw;
 } 
+.linkvsrargh-carousel{
+  height:20vh;
+  width:20vw;
+}
 
 .large-header {
    position: relative;
